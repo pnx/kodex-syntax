@@ -1,0 +1,15 @@
+{
+  "name": "kodex-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Dark nice theme with smooth colors",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/pnx/kodex-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
