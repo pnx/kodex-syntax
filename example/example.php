@@ -21,8 +21,8 @@ class SomeClass extends One implements Another {
 	 */
 	function doSmth($abc, $def) {
 		foo();
-		$def .=  self::MAGIC;
-		$v = Helper::convert($abc . "\n {$def}" . $$def);
+		$def .= self::MAGIC;
+		$v = Helper::convert($abc . "\n {$def}" . $def);
 		$q = new Query( $this->invent(abs(0x80)) );
 		return array($v => $q->result);
 	}
