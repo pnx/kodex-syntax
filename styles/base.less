@@ -183,9 +183,10 @@ atom-text-editor {
   }
 
   &.syntax--type {
-    // C/C++
-    &.syntax--stdint {
-      color: @keyword-color;
+    color: @keyword-color;
+
+    .syntax--keyword.syntax--control + & {
+      color: @syntax-text-color;
     }
   }
 }
