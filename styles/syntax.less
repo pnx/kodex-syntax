@@ -1,7 +1,16 @@
 
-.syntax--comment {
-  color: @red;
+// -------------------------------
+//  Error
+// -------------------------------
+
+.syntax--invalid.syntax--illegal {
+  background-color: @error;
+  color: @syntax-background-color;
 }
+
+// -------------------------------
+//  Keyword
+// -------------------------------
 
 .syntax--keyword {
   color: @keyword-color;
@@ -19,6 +28,10 @@
   color: @yellow;
 }
 
+// -------------------------------
+//  Constants
+// -------------------------------
+
 .syntax--constant {
   color: @syntax-text-color;
 
@@ -35,6 +48,10 @@
   }
 }
 
+// -------------------------------
+//  Variables
+// -------------------------------
+
 .syntax--variable {
   color: @variable-color;
 
@@ -42,15 +59,14 @@
     color: darken(@variable-color, 10%);
   }
 
-  &.syntax--other.syntax--property{
+  &.syntax--other.syntax--property {
 	color: @class-property-color;
   }
 }
 
-.syntax--invalid.syntax--illegal {
-  background-color: @error;
-  color: @syntax-background-color;
-}
+// -------------------------------
+//  Strings
+// -------------------------------
 
 .syntax--string {
   color: @string-color;
@@ -66,6 +82,14 @@
   &.syntax--other.syntax--link {
     color: @red;
   }
+}
+
+// -------------------------------
+//  Other
+// -------------------------------
+
+.syntax--comment {
+  color: @red;
 }
 
 .syntax--punctuation {
