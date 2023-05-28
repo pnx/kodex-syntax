@@ -1,7 +1,7 @@
 
 # Kodex syntax theme
 
-Dark nice theme with smooth colors
+Dark nice theme with smooth colors for Atom Editor.
 
 Example:
 
